@@ -8,7 +8,7 @@ layout: feed
 	<link href="http://hankquinlan.github.io/news/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/news"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://hankquinlan.github.io/news</id>
+	<id>http://biodiversity-exploratories-synthesis.github.io/news</id>
 	<author>
 		<name>Biodiversity Exploratories Synthesis</name>
 		<email>will-be-added-soon@xxx.com</email>
@@ -17,7 +17,7 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://hankquinlan.github.io{{ post.url }}"/>
+			<link href="http://biodiversity-exploratories-synthesis.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
 			<id>http://biodiversity-exploratories-synthesis.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
