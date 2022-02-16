@@ -11,10 +11,9 @@ title: News
 				<li><a href="https://biodiversity-exploratories-synthesis.github.io/">Biodiversity Exploratories</a></li>
 				<li><a href="https://www.bexis.uni-jena.de/">BExIS, the Information System of the Biodiversity Exploratories</a></li>
 				</ul>
-				<ul class="posts">
-
+		<ul class="posts">
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
-	</ul>
+	  </ul>
 		</div>
